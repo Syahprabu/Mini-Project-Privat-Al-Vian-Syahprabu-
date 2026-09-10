@@ -7,7 +7,7 @@ operasi =input(">> ") .upper()
 Angka1 = float(input("Masukan Nominal 1 :"))
 Angka2 = float(input("Masukan Nominal 2 :"))
 
-if operasi =="A" :
+if operasi =="A" : 
     hasil = Angka1 * Angka2
 elif operasi =="B" :
     hasil = 1/2 * Angka1 * Angka2  
