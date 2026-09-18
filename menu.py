@@ -1,4 +1,14 @@
-list_menu =[["Nasi Goreng",12000],["Mie Goreng",13000]]
+list_menu =[["Nasi Goreng",12000],
+            ["Mie Goreng",13000],
+            ["Bakso",15000],
+            ["Iga Bakar",20000],
+            ["Es Teh",3000],
+            ["Es Jeruk",5000],
+            ["Es Kampul",4000]]
+list_pesenan = [
+    ["Nasi Goreng",3],
+    ["Es Teh",5]
+]
 
 header1 = "No."
 header2 = "Menu"
@@ -15,3 +25,18 @@ while counter < len (list_menu):
     print("| " + " "*(3-len(nomor)) +nomor+ " | " +menu+ " "*(25-len(menu)) + " | Rp" + " "*(8-len(harga)) +harga+  " |")
     counter += 1
 print("+-" + "-"*3 + "---" + "-"*25 + "---" + "-"*10 + "-+")
+
+print("List Pesanan ? ")
+
+
+# counter = 0
+
+# while counter <  len(list_pesanan) :
+# print (list_pesenan)
+
+print("-"*48)
+print("Mau ngapain bang ?\n","A.Tambah Pesanan\n","B.Edit Pesanan\n","C.Hapus Pesanan\n","D.Bayar pesanan\n","E.Keluar\n")
+milih=input(">>")
+# match pesana :
+#     case  "A" :
+#         hasil = 
