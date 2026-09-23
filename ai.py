@@ -9,7 +9,7 @@ menu = {
     6: ("Es Teh Kampul / Panas", 4000),
 }
 
-pesanan = []  # list of [no_menu, jumlah]
+pesanan = [] 
 
 
 def clear():
