@@ -1,12 +1,13 @@
-panjang = int(input("Masukkan Panjang :"))
+punya= ["Kamus Bahasa Indonesia Dan Inggris", "Investasi Saham", "Laskar Pelangi","Sang Pemimpi","edensor"]
 
-counter1 = 1
-while counter1 <= panjang*2 :
-    if counter1 == panjang*2:
-        counter2 = 1
-        while counter2 <= panjang:
-            print("* ",end="")
-            counter2 += 1
-    else:
-        print("* ")
-    counter1 += 1    
+print("No"+" "+"Nama Buku")
+
+no = 1
+for buku in punya:
+    print("",no ,"", buku)
+    no += 1
+
+
+
+
+    
